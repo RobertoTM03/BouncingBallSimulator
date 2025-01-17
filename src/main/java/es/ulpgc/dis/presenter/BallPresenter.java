@@ -1,7 +1,7 @@
 package es.ulpgc.dis.presenter;
 
 import es.ulpgc.dis.model.Ball;
-import es.ulpgc.dis.model.BallDisplay;
+import es.ulpgc.dis.view.BallDisplay;
 import es.ulpgc.dis.model.BallSimulator;
 
 import java.util.ArrayList;

@@ -1,7 +1,5 @@
 package es.ulpgc.dis.view;
 
-import es.ulpgc.dis.model.BallDisplay;
-
 import javax.swing.*;
 import java.awt.*;
 
