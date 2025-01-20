@@ -57,10 +57,7 @@ public class SwingBallDisplay extends JPanel implements BallDisplay {
             public void mouseDragged(MouseEvent e) {
                 if (circle.isEmpty())return;
                 Coordinates coordinates = Coordinates.at(e.getX(), e.getY());
-                circle.ifPresent(c -> {
-                    System.out.println(coordinates);
-                    grabbed.at(new Circle(c.id(), coordinates.x, coordinates.y, c.r()));
-                });
+                circle.ifPresent(c -> grabbed.at(new Circle(c.id(), coordinates.x, coordinates.y, c.r())));
             }
 
             @Override
